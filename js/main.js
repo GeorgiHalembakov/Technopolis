@@ -369,3 +369,14 @@ class Refrigerator extends WithType {
         }
     }
 }
+
+
+
+// homepage slider
+$('.homepage-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items: 1,
+    autoplay: true
+});

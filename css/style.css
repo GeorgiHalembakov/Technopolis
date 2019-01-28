@@ -244,6 +244,13 @@ main{
     min-height: calc(100vh - 250px);
 }
 
+.homepage-slider .item{
+    height: 300px;
+    background: #fff;
+}
+
+
+
 /* footer styles */
 footer{
     width: 100%;
