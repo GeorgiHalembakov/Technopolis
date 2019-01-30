@@ -249,8 +249,85 @@ main{
     background: #fff;
 }
 
+/* promotions section styles */
 
+.promotion-heading{
+    width: 100%;
+    height: 50px;
+    background-color: #efeeee;
+    padding: 5px 30px;
 
+}
+
+.promotion-heading h3{
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.products-on-promotion{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.promotion-label{
+    width: auto;
+    display: inline-flex;
+    padding: 3px 5px;
+    background: #DC1F26;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid  #e6e6e6;
+   transition: all 200ms ease-out;
+}
+.product-box:hover{
+    transform: scale(1.08);
+    z-index: 3;
+}
+.product-box a:hover{
+    text-decoration: underline;
+}
+.product-box a{
+    margin-bottom: 5px;
+}
+.product-box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.promotion-category{
+    color: #1465B9;
+    font-size: 13px;
+    font-weight: 300;
+}
+.product-on-promotion-name{
+    color: #1465B9;
+    font-size: 16px;
+    font-weight: 700;
+}
+.product-price{
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    color: #DC1F26;
+}
 /* footer styles */
 footer{
     width: 100%;
