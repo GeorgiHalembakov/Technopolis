@@ -251,7 +251,7 @@ main{
 
 /* promotions section styles */
 
-.promotion-heading{
+.product-heading{
     width: 100%;
     height: 50px;
     background-color: #efeeee;
@@ -259,20 +259,20 @@ main{
 
 }
 
-.promotion-heading h3{
+.product-heading h3{
     color: #4a4a4a;
     font-size: 30px;
     font-weight: 300;
 }
 
-.products-on-promotion{
+.products-row{
     width: 100%;
     height: 300px;
     display: flex;
     margin-bottom: 60px;
 
 }
-.promotion-label{
+.product-label{
     width: auto;
     display: inline-flex;
     padding: 3px 5px;
@@ -312,12 +312,12 @@ main{
     object-fit: cover;
 }
 
-.promotion-category{
+.product-category{
     color: #1465B9;
     font-size: 13px;
     font-weight: 300;
 }
-.product-on-promotion-name{
+.product-name{
     color: #1465B9;
     font-size: 16px;
     font-weight: 700;
