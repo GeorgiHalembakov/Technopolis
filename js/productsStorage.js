@@ -392,29 +392,31 @@ class Refrigerator extends WithType {
     }
 }
 
-var tv1 = new TV('KD-43XE7005', 899.00, false, 'Sony', 'images\products\TV1.jpg', 'LED TV', 43, '4K ULTRA HD 3840 x 2160');
-var console1 = new gamingConsole('PLAYSTATION 4 SLIM WHITE', 599, false, 'Sony', 'images\products\console1.jpg', '500GB', false);
-var gsm1 = new GSM('GALAXY A9 A920F DS PINK', 999.00, false, 'Samsung', 'images\products\gsm1.jpg', '2.2GHz Quad + 1.8GHz Quad-Core', 6.30, '128 GB', true);
-var tablet1 = new Tablet('YOGA 3', 399.00, true, 'Lenovo', 'images\products\tablet1.jpg', '1.3 GHz Quad-Core', 8.0, 'IPS CAPACITIVE TOUCHSCREEN', '1280x800');
-var photoCamera1 = new Camera('EOS 750D', 1099.00, false, 'Canon', 'images\products\photoCamera1.jpg', 3.0, '24.0 MPx', 'DSLR фотоапарат');
-var videoCamera1 = new Camera('HDR-CX625B', 799.00, false, 'Sony', 'images\products\videoCamera1.jpg', 3.0, '9.2 MPx', 'HD видеокамера');
-var gps1 = new GPS('DRIVESMART 51 EU', 459.00, true, 'Garmin', 'images\products\gps1.jpg', 5.0, 'Цяла Европа');
-var carSpeaker1 = new CarSpeaker('GX402', 89.00, false, 'JBL', 'images\products\carSpeaker1.jpg', '10 CM', ' 35 W');
-var pc1 = new Computer('ASPIRE TC-780', 1149.00, false, 'Acer', 'images\products\pc1.jpg', 'Настолен компютър', 'INTEL CORE I5-7400 3.0GHZ 6MB', '8 GB DDR4', 'NVIDIA GEFORCE GT 1030 2 GB');
-var laptop1 = new Laptop('Ideapad 330', 1239.00, true, 'Lenovo', 'images\products\laptop1.jpg', 'Лаптоп', 'INTEL CORE I5-8250U 1.60 - 3.40 GHz', '8 GB DDR4', 'NVIDIA GEFORCE MX150', 15.6, '1000 GB');
-var accessory1 = new Accessory('M220 SILENT BK', 34.90, false, 'Logitech', 'images\products\mouse1.jpg', 'Мишка');
-var usb1 = new USBMemory('ULTRA FIT/USB3.0', 30.00, false, 'Sandisk', 'images\products\memory1.jpg', '64 GB');
-var microwave1 = new Microwave('MG23K3575AS', 249.00, false, 'Samsung', 'images\products\microwave1.jpg', 'Електронна Микровълнова Фурна', '23.00 L', ' 1250 W', '1100 W');
-var vacuum1 = new Vacuum('FC9729/09', 249.00, false, 'Philips', 'images\products\vacuum1.jpg', '650.0 W');
-var airConditioner1 = new AirConditioner('AC242ACEAA', 599.00, false, 'Haier', 'images\products\airConditioner1.jpg', '7.400 KW', '6.800 KW');
-var heater1 = new Heater('SO 2330', 79.00, false, 'Rowenta', 'images\products\heater1.jpg', 'Вертикална', '2400.0 W');
-var washingMachinve1 = new WashingMachine('8632 XB0B', 699.00, false, 'Beko', 'images\products\washingMachine1.jpg', 'Фронтално Зареждане', '8.0 kg', 'А+++');
-var refrigerator1 = new Refrigerator('KSL 2814', 699.00, true, 'Liebherr', 'images\products\fridge1.jpg', 'Хладилник с една врата', '140.00 см', 'Сив');
+var tv1 = new TV('KD-43XE7005', 899.00, false, 'Sony', 'TV1.jpg', 'LED TV', 43, '4K ULTRA HD 3840 x 2160');
+var console1 = new gamingConsole('PLAYSTATION 4 SLIM WHITE', 599, false, 'Sony', 'console1.jpg', '500GB', false);
+var gsm1 = new GSM('GALAXY A9 A920F DS PINK', 999.00, false, 'Samsung', 'gsm1.jpg', '2.2GHz Quad + 1.8GHz Quad-Core', 6.30, '128 GB', true);
+var tablet1 = new Tablet('YOGA 3', 399.00, true, 'Lenovo', 'tablet1.jpg', '1.3 GHz Quad-Core', 8.0, 'IPS CAPACITIVE TOUCHSCREEN', '1280x800');
+var photoCamera1 = new Camera('EOS 750D', 1099.00, false, 'Canon', 'photoCamera1.jpg', 3.0, '24.0 MPx', 'DSLR фотоапарат');
+var videoCamera1 = new Camera('HDR-CX625B', 799.00, false, 'Sony', 'videoCamera1.jpg', 3.0, '9.2 MPx', 'HD видеокамера');
+var gps1 = new GPS('DRIVESMART 51 EU', 459.00, true, 'Garmin', 'gps1.jpg', 5.0, 'Цяла Европа');
+var carSpeaker1 = new CarSpeaker('GX402', 89.00, false, 'JBL', 'carSpeaker1.jpg', '10 CM', ' 35 W');
+var pc1 = new Computer('ASPIRE TC-780', 1149.00, false, 'Acer', 'pc1.jpg', 'Настолен компютър', 'INTEL CORE I5-7400 3.0GHZ 6MB', '8 GB DDR4', 'NVIDIA GEFORCE GT 1030 2 GB');
+var laptop1 = new Laptop('Ideapad 330', 1239.00, true, 'Lenovo', 'laptop1.jpg', 'Лаптоп', 'INTEL CORE I5-8250U 1.60 - 3.40 GHz', '8 GB DDR4', 'NVIDIA GEFORCE MX150', 15.6, '1000 GB');
+var accessory1 = new Accessory('M220 SILENT BK', 34.90, false, 'Logitech', 'mouse1.jpg', 'Мишка');
+var usb1 = new USBMemory('ULTRA FIT/USB3.0', 30.00, false, 'Sandisk', 'memory1.jpg', '64 GB');
+var microwave1 = new Microwave('MG23K3575AS', 249.00, false, 'Samsung', 'microwave1.jpg', 'Електронна Микровълнова Фурна', '23.00 L', ' 1250 W', '1100 W');
+var vacuum1 = new Vacuum('FC9729/09', 249.00, false, 'Philips', 'vacuum1.jpg', '650.0 W');
+var airConditioner1 = new AirConditioner('AC242ACEAA', 599.00, false, 'Haier', 'airConditioner1.jpg', '7.400 KW', '6.800 KW');
+var heater1 = new Heater('SO 2330', 79.00, false, 'Rowenta', 'heater1.jpg', 'Вертикална', '2400.0 W');
+var washingMachinve1 = new WashingMachine('8632 XB0B', 699.00, false, 'Beko', 'washingMachine1.jpg', 'Фронтално Зареждане', '8.0 kg', 'А+++');
+var refrigerator1 = new Refrigerator('KSL 2814', 699.00, true, 'Liebherr', 'fridge1.jpg', 'Хладилник с една врата', '140.00 см', 'Сив');
 
-var promotions = new Map();
+// var promotions = new Map();
 
-promotions.set('Телевизори', tv1);
-promotions.set('Мобилни Телефони', gsm1);
-promotions.set('Таблети', tablet1);
-promotions.set('Лаптопи', laptop1);
-promotions.set('Фотоапарати', photoCamera1);
+var promotions = [tv1, gsm1, tablet1, laptop1, photoCamera1];
+
+// promotions.set('Телевизори', tv1);
+// promotions.set('Мобилни Телефони', gsm1);
+// promotions.set('Таблети', tablet1);
+// promotions.set('Лаптопи', laptop1);
+// promotions.set('Фотоапарати', photoCamera1);
