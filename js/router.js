@@ -4,6 +4,7 @@
     switch (page){
         case 'home' : homeController(); break;
         case 'login' : loginController(); break;
+        case 'categoryTv' : categoryController(); break;
 
         default: homeController();
     }

@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Technopolis</title>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="userSTorage.js"></script>
-    <script src="userController.js"></script>
-    <script src="productsStorage.js"></script>
-    <script src="productsController.js"></script>
-    <script src="homeController.js"></script>
-    <script src="router.js"></script>
+    <script src="js/userSTorage.js"></script>
+    <script src="js/loginController.js"></script>
+    <script src="js/productsStorage.js"></script>
+    <script src="js/productsController.js"></script>
+    <script src="js/homeController.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/router.js"></script>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
@@ -66,7 +68,7 @@
             </form>
             <div class="">
                 <div class="user-menu-wrapper">
-                    <a href="">ВХОД</a>
+                    <a id="login" href="#page=login">ВХОД</a>
                     <span>/</span>
                     <a href="">МОЯТ ПРОФИЛ</a>
                 </div>
@@ -86,7 +88,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">TV, ВИДЕО И GAMING</a>
+                    <a id="categoryTv" href="#page=categoryTv">TV, ВИДЕО И GAMING</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>

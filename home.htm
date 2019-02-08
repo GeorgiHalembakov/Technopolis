@@ -1,3 +1,4 @@
+<script src="js/homeController.js"></script>
 <div id="home"> 
 <div class="owl-carousel homepage-slider owl-theme">
     <div class="item">
@@ -85,6 +86,20 @@
                 <h3>Нови продукти</h3>
             </div>
             <div class="products-row">
+
+                <script id="tv" type="text/x-handlebars-template">
+                    <div class="product-box">
+                        <a href="" class="product-category">Телевизори</a>
+                        <span class="product-label">Промоция</span>
+                        <a href="">
+                            <img src="{{promotions.get('Телевизори').img}}" alt="">
+                        </a>
+                        <a href="" class="product-name">{{promotions.get('Телевизори').model}}</a>
+                        <span class="product-price">{{promotions.get('Телевизори').price}} <sup>00</sup> лв</span>
+                    
+                    </div>
+                </script>
+
                 <div class="product-box">
                     <a href="" class="product-category ">Телевизори</a>
 
