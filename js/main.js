@@ -1,6 +1,6 @@
 $(function () {
 
-    $('#login').on('click', function(){
+    $('.login').on('click', function(){
         $.get('../login.html').then(text =>{
             $('main').html(text);
         
