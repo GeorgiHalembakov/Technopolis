@@ -285,7 +285,9 @@ main{
     top: 0;
     right: 0;
 }
-
+.new-products .product-label{
+    display: none !important;
+}
 .product-box{
     display: flex;
     flex-direction: column;
