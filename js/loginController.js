@@ -26,7 +26,7 @@ function loginController() {
 
 
             } else {
-                $('.error').text('Wrong username or password');
+                $('.error').text('Грешно потребителско име или парола');
             }
         });
     });

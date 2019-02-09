@@ -8,14 +8,27 @@
                 <h3>Информация за клиент</h3>
 
                 <form id="register-form" class="login-form" action="">
-                    <label for="first-name">Име<span>*</span></label>
-                    <input id="first-name" type="text">
-                    <label for="last-name">Фамилия</label>
-                    <input type="text" name="" id="last-name">
-                    <label for="email">Електронна поща<span>*</span></label>
-                    <input id="reg-email" type="email">
-                    <label for="password">Парола<span>*</span></label>
-                    <input id="reg-password" type="password">
+                    <div id="regNameContainer">
+                            <label for="first-name">Име<span>*</span></label>
+                            <input id="first-name" type="text" required>
+                            <p class="error"></p>
+                    </div>
+                    <div id="lastNameContainer">
+                            <label for="last-name">Фамилия</label>
+                            <input type="text" name="" id="last-name" required>
+                            <p class="error"></p>
+                    </div>
+                   <div id="regEmailContainer"> 
+                        <label for="email">Електронна поща<span>*</span></label>
+                        <input id="reg-email" type="email" required>
+                        <p class="error"></p>
+                   </div>
+                   <div id="passwordContainer">
+                        <label for="password">Парола<span>*</span></label>
+                        <input id="reg-password" type="password" required>
+                        <p class="error"></p>
+                   </div>
+                    
                     
                     <button id="register-button" class="form-button">Регистрация</button>
                 </form>
