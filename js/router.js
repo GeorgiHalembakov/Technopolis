@@ -6,6 +6,7 @@
         case 'login' : loginController(); break;
         case 'categoryTv' : categoryController(); break;
         case 'register' : registerController(); break;
+        case 'profile' : profileController(); break;
 
         default: homeController();
     }
