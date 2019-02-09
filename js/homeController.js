@@ -8,8 +8,15 @@ function homeController(){
   $.get('js/promotionsTemplate.htm').then(res => {
     var template = Handlebars.compile(res);
     var html = template({ promotions });
-    $('.products-row').html(html);
+    $('.promotions').html(html);
   });
+
+  $.get('js/newItemsTemplate.htm').then(res => {
+    var template = Handlebars.compile(res);
+    var html = template({ newProducts });
+    $('.new').html(html);
+  });
+
   
   // var templateStr = $('#tv').html; 
   // var template = Handlebars.compile(templateStr);
@@ -18,4 +25,4 @@ function homeController(){
 
 
 
-}
+};

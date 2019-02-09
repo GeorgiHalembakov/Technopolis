@@ -16,6 +16,7 @@ function loginController() {
             if (userStorage.login(email, password)) {
                 location.replace('#page=profile');
                 var userList =  JSON.parse(localStorage.getItem('userList'));
+               
                 
                 userList.forEach(user => {
                     if (user.email === email && user.password === password) {
