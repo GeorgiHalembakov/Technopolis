@@ -7,6 +7,7 @@ function categoryController() {
     console.log(categoryPage);
     
     $.get('../category-page.htm').then(res => {
+        
         var template = Handlebars.compile(res);
         var html = template({ categoryPage });
         $('.main').html(html);
