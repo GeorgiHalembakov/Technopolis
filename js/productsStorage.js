@@ -435,6 +435,7 @@ var refrigerator1 = new Refrigerator('KSL 2814', 699.00, true, 'Liebherr', 'frid
 
 var promotions = [tv1, gsm1, tablet1, laptop1, photoCamera1];
 var newProducts = [accessory2, tablet2, usb1, refrigerator1, gps1];
+var categoryNav = [tv1, console1, gsm1, tablet1, photoCamera1, videoCamera1, carSpeaker1, gps1, pc1, laptop1, accessory1,usb1, microwave1, vacuum1, airConditioner1, heater1, washingMachinve1, refrigerator1];
 
 
 
