@@ -1,5 +1,4 @@
 function categoryController() {
-    console.log('category');
     const categoryHash = location.hash.split("=")[2];
     $.get('../category-page.html').then(text =>{
         $('main').html(text);

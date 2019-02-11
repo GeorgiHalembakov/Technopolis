@@ -1,5 +1,4 @@
 function loginController() {
-    console.log('login');
    if(JSON.parse(localStorage.getItem('currentUser')) === null){
     $.get('../login.html').then(text => {
         $('main').html(text);

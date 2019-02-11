@@ -467,7 +467,7 @@ var refrigerator3 = new Refrigerator('KSL 2814', 399.00, true, 'Liebherr', 'frid
 var promotions = [tv1, gsm1, tablet1, laptop1, photoCamera1];
 var newProducts = [accessory2, tablet2, usb1, refrigerator1, gps1];
 
-var products =[tv1,tv2,tv3,console1,console2,console3,gsm1,gsm2,gsm3,tablet1,tablet2,tablet3,videoCamera1,videoCamera2,videoCamera3,gps1,gps2,gps3,carSpeaker1,carSpeaker2,carSpeaker3,laptop1,laptop2,laptop3,accessory1,accessory2,accessory3,microwave1,microwave2,microwave3,vacuum1,vacuum2,vacuum3,airConditioner1,airConditioner2,airConditioner3,heater1,heater2,heater3,washingMachinve1,washingMachinve2,washingMachinve3,refrigerator1,refrigerator2,refrigerator3]
+var products =[pc1,pc2, pc3,tv1,tv2,tv3,console1,console2,console3,gsm1,gsm2,gsm3,tablet1,tablet2,tablet3,photoCamera1,photoCamera2,photoCamera3, videoCamera1,videoCamera2,videoCamera3,gps1,gps2,gps3,carSpeaker1,carSpeaker2,carSpeaker3,laptop1,laptop2,laptop3,accessory1,accessory2,accessory3,microwave1,microwave2,microwave3,vacuum1,vacuum2,vacuum3,airConditioner1,airConditioner2,airConditioner3,heater1,heater2,heater3,washingMachinve1,washingMachinve2,washingMachinve3,refrigerator1,refrigerator2,refrigerator3,usb1,usb2]
 
 var allProducts = [
     {
@@ -476,7 +476,7 @@ var allProducts = [
         subCats:{
             cat1:{
                 catName:'tv',
-                name:'телевизори',
+                name:'Телевизори',
                 imgLink:'images/products/TV1.jpg',
                 subCatHref:'#page=category=tvConsole=subCat=tv',
                 products:[
@@ -485,7 +485,7 @@ var allProducts = [
             },
             cat2:{
                 catName:'console',
-                name:'konzoli',
+                name:'Конзоли',
                 imgLink:'images/products/console1.jpg',
                 subCatHref:'#page=category=tvConsole=subCat=console',
                 products:[
@@ -497,11 +497,11 @@ var allProducts = [
     },
     {
         cat:'phoneTablet',
-        catName:'telefoni i tableti',
+        catName:'Телефони и таблети',
         subCats:{
             cat1:{
                 catName: 'phone',
-                name:'telefoni',
+                name:'Телефони',
                 imgLink:'images/products/gsm1.jpg',
                 subCatHref:'#page=category=phoneTablet=subCat=phone',
                 products:[
@@ -510,11 +510,186 @@ var allProducts = [
             },
             cat2:{
                 catName: 'tablet',
-                name:'tableti',
+                name:'Таблети' ,
                 imgLink:'images/products/tablet1.jpg',
                 subCatHref:'#page=category=phoneTablet=subCat=tablet',
                 products:[
                     tablet1,tablet2,tablet3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'photoVideo',
+        catName:'Фото и Видеокамери',
+        subCats:{
+            cat1:{
+                catName: 'photo',
+                name:'Фотокамери',
+                imgLink:'images/products/photoCamera1.jpg',
+                subCatHref:'#page=category=photoVideo=subCat=photo',
+                products:[
+                    photoCamera1,photoCamera2,photoCamera3
+                ]
+            },
+            cat2:{
+                catName: 'video',
+                name:'Видеокамери',
+                imgLink:'images/products/videoCamera1.jpg',
+                subCatHref:'#page=category=photoVideo=subCat=video',
+                products:[
+                    videoCamera1,videoCamera2,videoCamera3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'avtoGps',
+        catName:'АВТО И GPS',
+        subCats:{
+            cat1:{
+                catName: 'gps',
+                name:'GPS навигации',
+                imgLink:'images/products/gps1.jpg',
+                subCatHref:'#page=category=avtoGps=subCat=gps',
+                products:[
+                    gps1,gps2,gps3
+                ]
+            },
+            cat2:{
+                catName: 'speaker',
+                name:'Говорители',
+                imgLink:'images/products/carSpeaker1.jpg',
+                subCatHref:'#page=category=avtoGps=subCat=speaker',
+                products:[
+                    carSpeaker1,carSpeaker2,carSpeaker3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'computers',
+        catName:'КОМПЮТРИ И ПЕРИФЕРИЯ',
+        subCats:{
+            cat1:{
+                catName: 'pc',
+                name:'Настолни компютри',
+                imgLink:'images/products/pc1.jpg',
+                subCatHref:'#page=category=computers=subCat=pc',
+                products:[
+                    pc1,pc2,pc3
+                ]
+            },
+            cat2:{
+                catName: 'laptop',
+                name:'Лаптопи',
+                imgLink:'images/products/laptop1.jpg',
+                subCatHref:'#page=category=computers=subCat=laptop',
+                products:[
+                    laptop1,laptop2,laptop3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'pcaccessories',
+        catName:'КОМПЮТЪРНИ АКСЕСОАРИ',
+        subCats:{
+            cat1:{
+                catName: 'mouseKey',
+                name:'Мишки и Клавиатури',
+                imgLink:'images/products/mouse1.jpg',
+                subCatHref:'#page=category=pcaccessories=subCat=mouseKey',
+                products:[
+                    accessory1,accessory2,accessory3
+                ]
+            },
+            cat2:{
+                catName: 'usb',
+                name:'USB Памет',
+                imgLink:'images/products/memory1.jpg',
+                subCatHref:'#page=category=pcaccessories=subCat=usb',
+                products:[
+                    usb1,usb2
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'electro',
+        catName:'МАЛКИ ЕЛЕКТРОУРЕДИ',
+        subCats:{
+            cat1:{
+                catName: 'microwave',
+                name:'Микровълнови',
+                imgLink:'images/products/microwave1.jpg',
+                subCatHref:'#page=category=electro=subCat=microwave',
+                products:[
+                   microwave1,microwave2,microwave3
+                ]
+            },
+            cat2:{
+                catName: 'vacuum',
+                name:'Прахосмукачки',
+                imgLink:'images/products/vacuum1.jpg',
+                subCatHref:'#page=category=electro=subCat=vacuum',
+                products:[
+                    vacuum1,vacuum2,vacuum3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'heatCool',
+        catName:'КЛИМАТИЦИ И ОТОПЛИТЕЛИ',
+        subCats:{
+            cat1:{
+                catName: 'cool',
+                name:'Климатична техника',
+                imgLink:'images/products/airConditioner1.jpg',
+                subCatHref:'#page=category=heatCool=subCat=cool',
+                products:[
+                   airConditioner1,airConditioner2,airConditioner3
+                ]
+            },
+            cat2:{
+                catName: 'heat',
+                name:'Отоплители',
+                imgLink:'images/products/heater1.jpg',
+                subCatHref:'#page=category=heatCool=subCat=heat',
+                products:[
+                    heater1,heater2,heater3
+                ]
+            }
+        },
+
+    },
+    {
+        cat:'homeElectro',
+        catName:'ДОМАКИНСКИ ЕЛЕКТРОУРЕДИ',
+        subCats:{
+            cat1:{
+                catName: 'wash',
+                name:'Перални',
+                imgLink:'images/products/washingMachine1.jpg',
+                subCatHref:'#page=category=homeElectro=subCat=wash',
+                products:[
+                   washingMachinve1,washingMachinve2,washingMachinve3
+                ]
+            },
+            cat2:{
+                catName: 'fridge',
+                name:'Хладилници',
+                imgLink:'images/products/fridge1.jpg',
+                subCatHref:'#page=category=homeElectro=subCat=fridge',
+                products:[
+                   refrigerator1,refrigerator2,refrigerator3
                 ]
             }
         },

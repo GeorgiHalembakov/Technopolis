@@ -1,5 +1,4 @@
 function productController() {
-    console.log('product');
     const productHash = location.hash.split("=")[2];
    
  

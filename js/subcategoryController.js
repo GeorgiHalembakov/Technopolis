@@ -1,5 +1,4 @@
 function subcategoryController() {
-    console.log('subcategory');
     const categoryHash = location.hash.split("=")[2];
     const subCatHash = location.hash.split("=")[4];
     let subCat = []
