@@ -385,51 +385,82 @@ class Refrigerator extends WithType {
         }
         else {
             throw new Error('Invalid colour input!');
-        }
+        } 
     }
 }
 
 var tv1 = new TV('KD-43XE7005', 899.00, false, 'Sony', 'TV1.jpg', 'Teлевизори', 'LED TV', 43, '4K ULTRA HD 3840 x 2160');
 var tv2 = new TV('LT28E310EX', 359.00, false, 'SAMSUNG ', 'TV2.jpg', 'Teлевизори', 'LED TV+MONITOR', 27.5, 'HD READY 1366 x 768');
+var tv3 = new TV('32PHS4503', 399.00, false,'PHILIPS', 'TV4,jpg', 'Teлевизори','LED TV', 32.0,'HD READY 1366 x 768');
 
 var console1 = new gamingConsole('PLAYSTATION 4 SLIM WHITE', 599, false, 'Sony', 'console1.jpg', 'Конзоли', '500GB', false);
 var console2 = new gamingConsole('XBOX ONE S', 599, false, 'Microsoft', 'console2.jpg', 'Конзоли', '1TB', 'FORZA HORIZON 4');
+var console3 = new gamingConsole('NINTENDO SWITCH', 799, false, 'NINTENDO','console3.jpg','Конзоли', '32GB','POKEMON LETS GO:EEVEE');
 
 var gsm1 = new GSM('GALAXY A9 A920F DS PINK', 999.00, false, 'Samsung', 'gsm1.jpg', 'Мобилни Телефони', '2.2GHz Quad + 1.8GHz Quad-Core', 6.30, '128 GB', true);
 var gsm2 = new GSM('P20 LITE DS BLACK', 499.00, true, 'HUAWEI', 'gsm2.jpg', 'Мобилни Телефони', '2.36GHz Quad+1.7GHz Quad-Core', 5.84, '64 GB', false);
+var gsm3 = new GSM('GSM APPLE IPHONE XR 64GB RED', 1629.00, false, 'APPLE', 'gsm3.jpg', 'Мобилни Телефони', 'A12 Bionic', 6.10, '64 GB', false);
 
 var tablet1 = new Tablet('YOGA 3', 399.00, true, 'Lenovo', 'tablet1.jpg', 'Таблети', '1.3 GHz Quad-Core', 8.0, 'IPS CAPACITIVE TOUCHSCREEN', '1280x800');
 var tablet2 = new Tablet('MEDIAPAD M5', 829.00, false, 'HUAWEI', 'tablet2.jpg', 'Таблети', '2.1GHz Quad+1.8GHz Quad-Core', 10.8, 'IPS CAPACITIVE TOUCHSCREEN', '1600x2560');
+var tablet3 = new Tablet('SAMSUNG TAB A LTE T595 GRAY', 669.00, false, 'SAMSUNG', 'tablet3.jpg', 'Таблети', '1.8 GHZ OCTA-CORE', 10.5, 'IPS CAPACITIVE TOUCHSCREEN', '1200X1920');
 
 var photoCamera1 = new Camera('EOS 750D', 1099.00, false, 'Canon', 'photoCamera1.jpg', 'Фотоапарати', 3.0, '24.0 MPx', 'DSLR фотоапарат');
-var photoCamera1 = new Camera('EOS 2000D', 749.00, false, 'Canon', 'photoCamera2.jpg', 'Фотоапарати', 3.0, '24.0 MPx', 'DSLR фотоапарат');
+var photoCamera2 = new Camera('EOS 2000D', 749.00, false, 'Canon', 'photoCamera2.jpg', 'Фотоапарати', 3.0, '24.0 MPx', 'DSLR фотоапарат');
+var photoCamera3 = new Camera('NIKON D5300 18-55VR KIT', 1099.00, false, 'NIKON', 'photoCamera3.jpg', 'Фотоапарати', 3.0, '24.0 MPx', 'DSLR фотоапарат');
 
 var videoCamera1 = new Camera('HDR-CX625B', 799.00, false, 'Sony', 'videoCamera1.jpg', 'Видеокамери', 3.0, '9.2 MPx', 'HD видеокамера');
-var videoCamera1 = new Camera('HC-VX1EP-K', 1549.00, true, 'Panasonic', 'videoCamera2.jpg', 'Видеокамери', 3.0, '4k', '4K видеокамера');
+var videoCamera2 = new Camera('HC-VX1EP-K', 1549.00, true, 'Panasonic', 'videoCamera2.jpg', 'Видеокамери', 3.0, '4k', '4K видеокамера');
+var videoCamera3 = new Camera('HC-V260EP', 499.00, false, 'Panasonic', 'videoCamera3.jpg', 'Видеокамери', 3.0, '4k', '4K видеокамера');
 
 var gps1 = new GPS('DRIVESMART 51 EU', 459.00, true, 'Garmin', 'gps1.jpg', 'GPS Навигации', 5.0, 'Цяла Европа');
 var gps2 = new GPS('NUVI 2585ТV', 299.00, false, 'Garmin', 'gps2.jpg', 'GPS Навигации', 5.0, 'Европа и България');
+var gps3 = new GPS('GARMIN DRIVELUXE 50 LM', 699.00, false, 'Garmin', 'gps3.jpg', 'GPS Навигации', 5.0, 'Европа и България');
 
 var carSpeaker1 = new CarSpeaker('GX402', 89.00, false, 'JBL', 'carSpeaker1.jpg', 'Говорители', '10 CM', ' 35 W');
 var carSpeaker2 = new CarSpeaker('TS-WX306B', 279.00, false, 'PIONEER ', 'carSpeaker2.jpg', 'Говорители', '30 CM', ' 350 W');
+var carSpeaker3 = new CarSpeaker('JVC CS-BW120', 159.00, false, 'JVC ', 'carSpeaker3.jpg', 'Говорители', '30 CM', ' 150 W');
 
 var pc1 = new Computer('ASPIRE TC-780', 1149.00, false, 'Acer', 'pc1.jpg', 'Настолни Компютри', 'Настолен компютър', 'INTEL CORE I5-7400 3.0GHZ 6MB', '8GB DDR4', 'NVIDIA GEFORCE GT 1030 2 GB');
 var pc2 = new Computer('IDEACENTRE 310-15IAP ', 549.00, true, 'LENOVO ', 'pc2.jpg', 'Настолни Компютри', 'Настолен компютър', 'INTEL PENTIUM J4205 1.5GHZ 2MB', '4GB DDR3', 'INTEL HD GRAPHICS 505');
+var pc3 = new Computer('APPLE IMAC 27" MNE92ZE/A', 4349.00, true, 'APPLE ', 'pc3.jpg', 'Настолни Компютри', 'Настолен компютър', 'INTEL PENTIUM J4205 1.5GHZ 2MB', '4GB DDR3', 'INTEL HD GRAPHICS 505');
+
 
 var laptop1 = new Laptop('Ideapad 330', 1239.00, true, 'Lenovo', 'laptop1.jpg', 'Лаптопи', 'Лаптоп', 'INTEL CORE I5-8250U 1.60 - 3.40 GHz', '8GB DDR4', 'NVIDIA GEFORCE MX150', 15.6, '1000 GB');
 var laptop2 = new Laptop('VivoBook X540NA', 679.00, false, 'ASUS', 'laptop2.jpg', 'Лаптопи', 'Лаптоп', ' INTEL CELERON N3350 1.10 - 2.40 GHz', '4GB DDR4', 'Вградена', 15.6, '1000 GB');
+var laptop3 = new Computer('DELL INSPIRON 3576 /200070_8GB RED', 849.00, false, 'DELL ', 'laptop2.jpg', 'Лаптопи', 'Лаптоп', 'INTEL CORE i3-7020U', '4GB DDR3', 'AMD RADEON 520');
 
 var accessory1 = new Accessory('M220 SILENT BK', 34.00, false, 'Logitech', 'mouse1.jpg', 'Мишки и Клавиатури', 'Мишка');
 var accessory2 = new Accessory('MLA22BG/A', 239.00, false, 'Logitech', 'keyboard1.jpg', 'Мишки и Клавиатури', 'Клавиатура');
+var accessory3 = new Accessory('STEELSERIES RIVAL 300 BK', 89.00, false, 'Steelseries', 'mouse2.jpg', 'Мишки и Клавиатури', 'Мишка');
 
 var usb1 = new USBMemory('ULTRA FIT/USB3.0', 30.00, false, 'Sandisk', 'memory1.jpg', 'USB Памет', '64 GB');
+var usb2 = new USBMemory('HP 16GB V285W', 23.00, false, 'HP', 'memory2.jpg', 'USB Памет', '64 GB');
 
 var microwave1 = new Microwave('MG23K3575AS', 249.00, false, 'Samsung', 'microwave1.jpg', 'Микровълнови Печки', 'Електронна Микровълнова Фурна', '23.00 L', ' 1250 W', '1100 W');
+var microwave2 = new Microwave('MG23K3575AS', 209.00, false, 'Samsung', 'microwave1.jpg', 'Микровълнови Печки', 'Електронна Микровълнова Фурна', '23.00 L', ' 1250 W', '1100 W');
+var microwave3 = new Microwave('MG23K3575AS', 219.00, false, 'Samsung', 'microwave1.jpg', 'Микровълнови Печки', 'Електронна Микровълнова Фурна', '23.00 L', ' 1250 W', '1100 W');
+
+
 var vacuum1 = new Vacuum('FC9729/09', 249.00, false, 'Philips', 'vacuum1.jpg', 'Прахосмукачки', '650.0 W');
+var vacuum2 = new Vacuum('RR6925WH', 4999.00, false, 'Rowenta', 'vacuum2.jpg', 'Прахосмукачки', '650.0 W');
+var vacuum3 = new Vacuum('FC9729/09', 149.00, false, 'Philips', 'vacuum3.jpg', 'Прахосмукачки', '650.0 W');
+
 var airConditioner1 = new AirConditioner('AC242ACEAA', 599.00, false, 'Haier', 'airConditioner1.jpg', 'Климатици', '7.400 KW', '6.800 KW');
+var airConditioner2 = new AirConditioner('AC242ACEAA', 399.00, false, 'Haier', 'airConditioner2.jpg', 'Климатици', '7.400 KW', '6.800 KW');
+var airConditioner3 = new AirConditioner('AC242ACEAA', 499.00, false, 'Haier', 'airConditioner3.jpg', 'Климатици', '7.400 KW', '6.800 KW');
+
 var heater1 = new Heater('SO 2330', 79.00, false, 'Rowenta', 'heater1.jpg', 'Отоплители', 'Вертикална', '2400.0 W');
+var heater2 = new Heater('RH25M', 169.00, false, 'ELDOM', 'heater2.jpg', 'Отоплители', 'Вертикална', '2400.0 W');
+var heater3 = new Heater('SO 2330', 79.00, false, 'Rowenta', 'heater3.jpg', 'Отоплители', 'Вертикална', '2400.0 W');
+
 var washingMachinve1 = new WashingMachine('8632 XB0B', 699.00, false, 'Beko', 'washingMachine1.jpg', 'Перални', 'Фронтално Зареждане', '8.0 kg', 'А+++');
+var washingMachinve2 = new WashingMachine('8632 XB0B', 599.00, false, 'Beko', 'washingMachine2.jpg', 'Перални', 'Фронтално Зареждане', '8.0 kg', 'А+++');
+var washingMachinve3 = new WashingMachine('8632 XB0B', 629.00, false, 'Beko', 'washingMachine3.jpg', 'Перални', 'Фронтално Зареждане', '8.0 kg', 'А+++');
+
 var refrigerator1 = new Refrigerator('KSL 2814', 699.00, true, 'Liebherr', 'fridge1.jpg', 'Хладилници', 'Хладилник', '140.00 см', 'Сив');
+var refrigerator2 = new Refrigerator('KSL 2814', 999.00, true, 'Liebherr', 'fridge2.jpg', 'Хладилници', 'Хладилник', '140.00 см', 'Сив');
+var refrigerator3 = new Refrigerator('KSL 2814', 399.00, true, 'Liebherr', 'fridge3.jpg', 'Хладилници', 'Хладилник', '140.00 см', 'Сив');
 
 // var promotions = new Map();
 
