@@ -393,9 +393,9 @@ var tv1 = new TV('KD-43XE7005', 899.00, false, 'Sony', 'TV1.jpg', 'Teлевиз�
 var tv2 = new TV('LT28E310EX', 359.00, false, 'SAMSUNG ', 'TV2.jpg', 'Teлевизори', 'LED TV+MONITOR', 27.5, 'HD READY 1366 x 768');
 var tv3 = new TV('32PHS4503', 399.00, false,'PHILIPS', 'TV4.jpg', 'Teлевизори','LED TV', 32.0,'HD READY 1366 x 768');
 
-var console1 = new gamingConsole('PLAYSTATION 4 SLIM WHITE', 599, false, 'Sony', 'console1.jpg', 'Конзоли', '500GB', false);
+var console1 = new gamingConsole('PLAYSTATION 4 SLIM', 599.00, false, 'Sony', 'console1.jpg', 'Конзоли', '500GB', false);
 var console2 = new gamingConsole('XBOX ONE S', 599, false, 'Microsoft', 'console2.jpg', 'Конзоли', '1TB', 'FORZA HORIZON 4');
-var console3 = new gamingConsole('NINTENDO SWITCH', 799, false, 'NINTENDO','console3.jpg','Конзоли', '32GB','POKEMON LETS GO:EEVEE');
+var console3 = new gamingConsole('NINTENDO SWITCH', 799.00, false, 'NINTENDO','console3.jpg','Конзоли', '32GB','POKEMON LETS GO:EEVEE');
 
 var gsm1 = new GSM('GALAXY A9 A920F DS PINK', 999.00, false, 'Samsung', 'gsm1.jpg', 'Мобилни Телефони', '2.2GHz Quad + 1.8GHz Quad-Core', 6.30, '128 GB', true);
 var gsm2 = new GSM('P20 LITE DS BLACK', 499.00, true, 'HUAWEI', 'gsm2.jpg', 'Мобилни Телефони', '2.36GHz Quad+1.7GHz Quad-Core', 5.84, '64 GB', false);

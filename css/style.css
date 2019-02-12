@@ -575,7 +575,7 @@ margin-left: 4px;
 
 
 .product-description li{
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-weight: bold;  
     text-transform: uppercase;
 }
@@ -589,6 +589,15 @@ margin-left: 4px;
 .product-description button{
     margin-bottom: 8px;
     text-transform: uppercase;
+}
+
+.buy{
+    background-color: #DC1F26;
+}
+.buy, .add-to{
+    margin-top: 5px;
+    width: 100%;
+
 }
 
 
