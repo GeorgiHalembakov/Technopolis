@@ -643,6 +643,8 @@ margin-left: 4px;
     .homepage-slider .item{
         height: auto;
     }
+.product-name{
+    font-size: 13px;
 }
 
 @media (max-width: 640px){
