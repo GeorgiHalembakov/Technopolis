@@ -13,18 +13,7 @@ $(function () {
     //     });
         
     // });
-    $('.category').on('click', function (){
-        categoryName = [];
-        categoryName.push($(this).text());
-        console.log(categoryName);
-        $.get('../categoryLayout.htm').then(res => {
-            console.log(res);
-            var template = Handlebars.compile(res);
-            var html = template({ categoryName: categoryName });
-            $('.main').html(html);
-        });
 
-    });
 
 
 

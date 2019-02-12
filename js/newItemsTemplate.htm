@@ -1,11 +1,11 @@
 {{#each newProducts}}
-    <div class="product-box">
-        <a href="" class="product-category">{{category}}</a>
+    <a href="#page=product={{Id}}" class="product-box">
+        <p  class="product-category">{{category}}</p>
         <span class="product-label">Промоция</span>
-        <a href="">
+        <div href="">
             <img src="images/products/{{img}}" alt="">
-        </a>
-        <a href="" class="product-name">{{type}} {{name}} </a>
+        </div>
+        <p class="product-name">{{type}} {{name}} </p>
         <span class="product-price">{{price}} <sup>00</sup> лв</span>
-    </div>
+    </a>
 {{/each}}

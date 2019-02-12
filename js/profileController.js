@@ -1,6 +1,4 @@
 function profileController(){
-    console.log('profile');
-
     if(JSON.parse(localStorage.getItem('currentUser')) !== null){
         $.get('../profile-page.html').then(text =>{
 

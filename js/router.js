@@ -1,23 +1,19 @@
-  
+
  function router(){
     const page = location.hash.split("=")[1];
+    const catPage = location.hash.split("=")[3];
     switch (page){
         case 'home' : homeController(); break;
         case 'login' : loginController(); break;
-        case 'category1' : 
-        case 'category2' : 
-        case 'category3' : 
-        case 'category4' : 
-        case 'category5' : 
-        case 'category6' : 
-        case 'category7' : 
-        case 'category8' : 
-        case 'category9' : categoryController(); break;
-      
+        case 'category' : categoryController(); break;
         case 'register' : registerController(); break;
         case 'profile' : profileController(); break;
+        case 'product' : productController(); break;
 
         default: homeController();
+    }
+    if(catPage == 'subCat'){
+        subcategoryController(); 
     }
 };  
 

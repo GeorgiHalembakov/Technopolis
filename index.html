@@ -13,11 +13,12 @@
     <script src="js/userSTorage.js"></script>
     <script src="js/loginController.js"></script>
     <script src="js/productsStorage.js"></script>
-    <script src="js/productsController.js"></script>
     <script src="js/profileController.js"></script>
     <script src="js/homeController.js"></script>
     <script src="js/registerController.js"></script>
     <script src="js/categoryController.js"></script>
+    <script src="js/subcategoryController.js"></script> 
+    <script src="js/productController.js"></script> 
     <script src="js/owl.js"></script>
     <script src="js/main.js"></script>
     <script src="js/router.js"></script>
@@ -92,14 +93,14 @@
         <nav>
             <ul>
                 <li>
-                    <a class="category" id="category1" href="#page=category1">TV, ВИДЕО И GAMING</a>
+                    <a id="categoryTv" href="#page=category=tvConsole">TV, ВИДЕО И GAMING</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Телевизори</a>
+                                <a href="#page=category=tvConsole=subCat=tv">Телевизори</a>
                             </li>
                             <li>
-                                <a href="">Конзоли</a>
+                                <a href="#page=category=tvConsole=subCat=console">Конзоли</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -109,14 +110,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category2" href="#page=category2">ТЕЛЕФОНИ И ТАБЛЕТИ</a>
+                    <a href="#page=category=phoneTablet">ТЕЛЕФОНИ И ТАБЛЕТИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Мобилни телефони</a>
+                                <a href="#page=category=phoneTablet=subCat=phone">Мобилни телефони</a>
                             </li>
                             <li>
-                                <a href="">Таблети</a>
+                                <a href="#page=category=phoneTablet=subCat=tablet">Таблети</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -126,14 +127,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category3" href="#page=category3">ФОТО И ВИДЕОКАМЕРИ</a>
+                    <a href="#page=category=photoVideo">ФОТО И ВИДЕОКАМЕРИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Фотоапарати</a>
+                                <a href="#page=category=photoVideo=subCat=photo">Фотоапарати</a>
                             </li>
                             <li>
-                                <a href="">Видеокамери</a>
+                                <a href="#page=category=photoVideo=subCat=video">Видеокамери</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -141,14 +142,14 @@
                         </div>
                 </li>
                 <li>
-                    <a  class="category" id="category4" href="#page=category4">АВТО И GPS</a>
+                    <a href="#page=category=avtoGps">АВТО И GPS</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">GPS навигации</a>
+                                <a href="#page=category=avtoGps=subCat=gps">GPS навигации</a>
                             </li>
                             <li>
-                                <a href="">Говорители</a>
+                                <a href="#page=category=avtoGps=subCat=speaker">Говорители</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -158,14 +159,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category5" href="#page=category5">КОМПЮТРИ И ПЕРИФЕРИЯ</a>
+                    <a href="#page=category=computers">КОМПЮТРИ И ПЕРИФЕРИЯ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Настолни компютри</a>
+                                <a href="#page=category=computers=subCat=pc">Настолни компютри</a>
                             </li>
                             <li>
-                                <a href="">Лаптопи</a>
+                                <a href="#page=category=computers=subCat=laptop">Лаптопи</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -174,14 +175,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category6" href="#page=category6">КОМПЮТЪРНИ АКСЕСОАРИ</a>
+                    <a href="#page=category=pcaccessories">КОМПЮТЪРНИ АКСЕСОАРИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Мишки и Клавиатури</a>
+                                <a href="#page=category=pcaccessories=subCat=mouseKey">Мишки и Клавиатури</a>
                             </li>
                             <li>
-                                <a href="">USB Памет</a>
+                                <a href="#page=category=pcaccessories=subCat=usb">USB Памет</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -190,14 +191,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category7" href="#page=category7">МАЛКИ ЕЛЕКТРОУРЕДИ</a>
+                    <a href="#page=category=electro">МАЛКИ ЕЛЕКТРОУРЕДИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Микровълнови</a>
+                                <a href="#page=category=electro=subCat=microwave">Микровълнови</a>
                             </li>
                             <li>
-                                <a href="">Прахосмукачки</a>
+                                <a href="#page=category=electro=subCat=vacuum">Прахосмукачки</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -206,14 +207,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category8" href="#page=category8">КЛИМАТИЦИ И ОТОПЛИТЕЛИ</a>
+                    <a href="#page=category=heatCool">КЛИМАТИЦИ И ОТОПЛИТЕЛИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Климатична техника</a>
+                                <a href="#page=category=heatCool=subCat=cool">Климатична техника</a>
                             </li>
                             <li>
-                                <a href="">Отоплители</a>
+                                <a href="#page=category=heatCool=subCat=heat">Отоплители</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
@@ -222,14 +223,14 @@
                     </div>
                 </li>
                 <li>
-                    <a class="category" id="category9" href="#page=category9">ДОМАКИНСКИ ЕЛЕКТРОУРЕДИ</a>
+                    <a href="#page=category=homeElectro">ДОМАКИНСКИ ЕЛЕКТРОУРЕДИ</a>
                     <div class="nav-dropdown">
                         <ul>
                             <li>
-                                <a href="">Перални</a>
+                                <a href="#page=category=homeElectro=subCat=wash">Перални</a>
                             </li>
                             <li>
-                                <a href="">Хладилници</a>
+                                <a href="#page=category=homeElectro=subCat=fridge">Хладилници</a>
                             </li>
                         </ul>
                         <div class="nav-dropdown-img">
