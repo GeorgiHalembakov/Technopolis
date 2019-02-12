@@ -268,7 +268,6 @@ main{
 
 .products-row{
     width: 100%;
-    flex-wrap: wrap;
     display: flex;
     margin-bottom: 60px;
 
@@ -413,6 +412,9 @@ footer a:hover{
     object-fit: contain;
 }
 
+.subCatProducts{
+    flex-wrap: wrap;
+}
 
 /* ------------------------login form styles-----------------*/
 .login-wrapper{
