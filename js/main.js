@@ -15,7 +15,12 @@ $(function () {
     // });
 
 
-
+    $('.nav-hover').on('mouseover', function(){
+        var id = $(this).attr('id');
+        categoryNav.forEach(() => {
+            $('.cat-img').attr('src', `images/products/${categoryNav[id].img}`);
+        });
+    });
 
 
 });

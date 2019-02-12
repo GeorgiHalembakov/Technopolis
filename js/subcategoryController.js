@@ -10,8 +10,10 @@ function subcategoryController() {
                 
                 if(obj.subCats.cat1.catName == subCatHash){
                     subCat = obj.subCats.cat1.products
+                    $('.product-heading span').text(obj.subCats.cat1.name);
                 }else{
                     subCat = obj.subCats.cat2.products
+                    $('.product-heading span').text(obj.subCats.cat2.name);
 
                 }
 

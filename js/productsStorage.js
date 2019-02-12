@@ -393,9 +393,9 @@ var tv1 = new TV('KD-43XE7005', 899.00, false, 'Sony', 'TV1.jpg', 'Teлевиз�
 var tv2 = new TV('LT28E310EX', 359.00, false, 'SAMSUNG ', 'TV2.jpg', 'Teлевизори', 'LED TV+MONITOR', 27.5, 'HD READY 1366 x 768');
 var tv3 = new TV('32PHS4503', 399.00, false,'PHILIPS', 'TV4.jpg', 'Teлевизори','LED TV', 32.0,'HD READY 1366 x 768');
 
-var console1 = new gamingConsole('PLAYSTATION 4 SLIM WHITE', 599, false, 'Sony', 'console1.jpg', 'Конзоли', '500GB', false);
+var console1 = new gamingConsole('PLAYSTATION 4 SLIM', 599.00, false, 'Sony', 'console1.jpg', 'Конзоли', '500GB', false);
 var console2 = new gamingConsole('XBOX ONE S', 599, false, 'Microsoft', 'console2.jpg', 'Конзоли', '1TB', 'FORZA HORIZON 4');
-var console3 = new gamingConsole('NINTENDO SWITCH', 799, false, 'NINTENDO','console3.jpg','Конзоли', '32GB','POKEMON LETS GO:EEVEE');
+var console3 = new gamingConsole('NINTENDO SWITCH', 799.00, false, 'NINTENDO','console3.jpg','Конзоли', '32GB','POKEMON LETS GO:EEVEE');
 
 var gsm1 = new GSM('GALAXY A9 A920F DS PINK', 999.00, false, 'Samsung', 'gsm1.jpg', 'Мобилни Телефони', '2.2GHz Quad + 1.8GHz Quad-Core', 6.30, '128 GB', true);
 var gsm2 = new GSM('P20 LITE DS BLACK', 499.00, true, 'HUAWEI', 'gsm2.jpg', 'Мобилни Телефони', '2.36GHz Quad+1.7GHz Quad-Core', 5.84, '64 GB', false);
@@ -466,7 +466,7 @@ var refrigerator3 = new Refrigerator('KSL 2814', 399.00, true, 'Liebherr', 'frid
 
 var promotions = [tv1, gsm1, tablet1, laptop1, photoCamera1];
 var newProducts = [accessory2, tablet2, usb1, refrigerator1, gps1];
-
+var categoryNav = [tv1, console1, gsm3, videoCamera1, carSpeaker2, laptop2, accessory2, microwave1, airConditioner3, washingMachinve1];
 var products =[pc1,pc2, pc3,tv1,tv2,tv3,console1,console2,console3,gsm1,gsm2,gsm3,tablet1,tablet2,tablet3,photoCamera1,photoCamera2,photoCamera3, videoCamera1,videoCamera2,videoCamera3,gps1,gps2,gps3,carSpeaker1,carSpeaker2,carSpeaker3,laptop1,laptop2,laptop3,accessory1,accessory2,accessory3,microwave1,microwave2,microwave3,vacuum1,vacuum2,vacuum3,airConditioner1,airConditioner2,airConditioner3,heater1,heater2,heater3,washingMachinve1,washingMachinve2,washingMachinve3,refrigerator1,refrigerator2,refrigerator3,usb1,usb2]
 
 var allProducts = [
